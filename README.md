@@ -1,4 +1,4 @@
-assets
+assets/go-pixl-screenshot.png
 > A simple pixel art editor in Go
 
 ---
