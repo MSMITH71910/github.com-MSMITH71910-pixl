@@ -1,3 +1,4 @@
+assets
 > A simple pixel art editor in Go
 
 ---
