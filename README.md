@@ -58,7 +58,8 @@ Dir.chdir pixl
 # --------------------------------------------
 
 ### To run the program, use the following command:
-```go run ./pixl/pixl.go
+```
+go run ./pixl/pixl.go
 ```
 
 ## This will start the Pixel Art Editor. A window should open, allowing you to create and edit pixel art.
@@ -70,13 +71,16 @@ Dir.chdir pixl
 ### If you want to build the program into an executable file, follow these steps:
 
 ## Step 1: Run the go build command:
-```go build -o pixl ./pixl/pixl.go
+```
+go build -o pixl ./pixl/pixl.go
 ```
 
 ### This will create an executable file named `pixl` (or `pixl.exe` on Windows) in the current directory.
 
 ## Step 2: Run the executable:
-system("./pixl")
+```
+./pixl
+```
 
 # --------------------------------------------
 ## Troubleshooting
@@ -86,17 +90,24 @@ system("./pixl")
 
 ## **1. Missing Libraries on Linux:**
 ### **If you see an error like `cannot find -lXxf86vm`, install the required libraries:**
-system("sudo apt update")
-system("sudo apt install libxxf86vm-dev libgl1-mesa-dev xorg-dev")
+```
+sudo apt update
+```
+```
+sudo apt install libxxf86vm-dev libgl1-mesa-dev xorg-dev
+```
 
 ## **2. Dependency Issues:**
 ### If dependencies are not installed correctly, run:
-```go mod tidy
+```
+go mod tidy
 ```
 
 ## 3. Go Version Issues:
 ### **Ensure you are using Go 1.18 or later. Check your Go version with:**
-system("go version")
+```
+go version
+```
 
 # --------------------------------------------
 ## License
