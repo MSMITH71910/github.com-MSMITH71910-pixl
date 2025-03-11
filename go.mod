@@ -1,10 +1,11 @@
 module github.com/MSMITH71910/pixl
 
-go 1.22.2
+go 1.22.0
+
+toolchain go1.22.2
 
 require (
 	fyne.io/fyne/v2 v2.5.4
-	github.com/MSMITH71910/pixl
 	github.com/lusingander/colorpicker v0.7.4
 )
 
