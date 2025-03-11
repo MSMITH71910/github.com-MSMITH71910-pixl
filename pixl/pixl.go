@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"image/color"
 
 	"fyne.io/fyne/v2"
@@ -12,6 +13,7 @@ import (
 )
 
 func main() {
+	fmt.Println("program is running!")
 	pixlApp := app.New()
 	pixlWindow := pixlApp.NewWindow("pixl")
 
